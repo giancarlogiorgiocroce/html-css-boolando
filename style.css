@@ -6,15 +6,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+    width: 45%;
+    margin: 0 auto;
+}
+
 .prodotto{
     display: inline-block;
     width: 220px;
     padding: 0px 5px 30px;
-}
-
-main{
-    width: 45%;
-    margin: 0 auto;
 }
 /* /GENERAL */
 
@@ -85,3 +85,36 @@ div.didascalia span{
 .barrato{
     text-decoration: line-through;
 }
+/* /.DIDASCALIA */
+
+
+/* PRODOTTI HOVER*/
+div.prodotto:hover{
+    cursor: pointer;
+    display: hide;
+}
+
+div.fotografia.uno img:hover{
+    content: url(img/1b.webp);
+}
+
+div.fotografia.due img:hover{
+    content: url(img/2b.webp);
+}
+
+div.fotografia.tre img:hover{
+    content: url(img/3b.webp);
+}
+
+div.fotografia.quattro img:hover{
+    content: url(img/4b.webp);
+}
+
+div.fotografia.cinque img:hover{
+    content: url(img/5b.webp);
+}
+
+div.fotografia.sei img:hover{
+    content: url(img/6b.webp);
+}
+/* /PRODOTTI HOVER*/
