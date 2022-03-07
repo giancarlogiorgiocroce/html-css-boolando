@@ -11,3 +11,39 @@
     clear: both;
 }
 /* /GENERAL */
+
+.prodotto{
+    display: inline-block;
+    width: 300px;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* DIDASCALIE */
+.marca, .prezzo, .barrato{
+    font-size: small;
+}
+
+.marca{
+    color: grey;
+    font-weight: bold;
+}
+
+h5{
+    text-transform: uppercase;
+}
+
+div.didascalia span{
+    font-weight: bolder;
+}
+
+.prezzo{
+    color: red;
+}
+
+.barrato{
+    text-decoration: line-through;
+}
