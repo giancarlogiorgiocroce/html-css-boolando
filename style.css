@@ -8,12 +8,12 @@
 
 .prodotto{
     display: inline-block;
-    width: 300px;
+    width: 220px;
     padding: 0px 5px 30px;
 }
 
 main{
-    width: 60%;
+    width: 45%;
     margin: 0 auto;
 }
 /* /GENERAL */
@@ -65,6 +65,7 @@ span.sostenibilità{
     color: grey;
     font-size: x-small;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 h6{
