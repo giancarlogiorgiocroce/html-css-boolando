@@ -33,49 +33,47 @@ span.cuore{
     top: 3%;
     right: 0;
     background-color: white;
-    padding: 5px 10px;
-}
-
-span.sconto, span.sostenibilità{
-    font-size: xx-small;
-    font-weight: bold;
-    color: white;
+    padding: 3px 6px;
+    font-size: small;
 }
 
 div.etichette{
     position: absolute;
-    bottom: 5%;
+    bottom: 4%;
     left: 0;
 }
 
+span.sconto, span.sostenibilità{
+    font-weight: 450;
+    color: white;
+    font-size: 6px;
+}
+
 span.sconto{
-    background-color: red;
+    background-color: rgb(235, 0, 54);
     padding: 3px;
 }
 
 span.sostenibilità{
-    background-color: green;
+    background-color: rgb(0, 133, 88);
     padding: 3px;
 }
 /* /.FOTOGRAFIA */
 
 
 /* .DIDASCALIA */
+.didascalia{
+    font-size: 6px;
+    font-weight: 699;
+}
+
 .marca{
     color: grey;
-    font-size: x-small;
-    font-weight: 600;
-    text-transform: capitalize;
 }
 
-h6{
+h3{
     text-transform: uppercase;
-    font-weight: bolder;
-}
-
-div.didascalia span{
-    font-weight: 800;
-    font-size: xx-small;
+    font-weight: 799;
 }
 
 .prezzo{
@@ -83,6 +81,7 @@ div.didascalia span{
 }
 
 .barrato{
+    color: grey;
     text-decoration: line-through;
 }
 /* /.DIDASCALIA */
