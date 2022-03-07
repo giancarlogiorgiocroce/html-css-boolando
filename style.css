@@ -10,26 +10,38 @@
     display: table;
     clear: both;
 }
-/* /GENERAL */
 
 .prodotto{
     display: inline-block;
     width: 300px;
+}
+/* /GENERAL */
+
+
+/* .FOTOGRAFIA */
+div.fotografia{
+    position: relative;
 }
 
 img{
     width: 100%;
 }
 
-
-/* DIDASCALIE */
-.marca, .prezzo, .barrato{
-    font-size: small;
+span.cuore{
+    position: absolute;
+    top: 3%;
+    right: 0;
+    background-color: white;
+    padding: 5px 10px;
 }
+/* /.FOTOGRAFIA */
 
+
+/* .DIDASCALIA */
 .marca{
     color: grey;
     font-weight: bold;
+    font-size: small;
 }
 
 h5{
@@ -38,6 +50,7 @@ h5{
 
 div.didascalia span{
     font-weight: bolder;
+    font-size: x-small;
 }
 
 .prezzo{
