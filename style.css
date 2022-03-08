@@ -123,3 +123,18 @@ div.fotografia.sei img:hover{
     content: url(img/6b.webp);
 }
 /* /PRODOTTI HOVER*/
+
+
+/*
+seconda-img{
+    display: none;
+}
+
+prima-img:hover{
+    display: none;
+}
+
+seconda-img:hover{
+    display: inline-block
+}
+*/
