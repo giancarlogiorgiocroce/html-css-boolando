@@ -11,7 +11,7 @@ main{
     margin: 0 auto;
 }
 
-.clearfix{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
@@ -69,8 +69,8 @@ span.sostenibilità{
 
 /* .DIDASCALIA */
 .didascalia{
-    font-size: 6px;
-    font-weight: 699;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .marca{
@@ -79,7 +79,7 @@ span.sostenibilità{
 
 h3{
     text-transform: uppercase;
-    font-weight: 799;
+    font-weight: 700;
 }
 
 .prezzo{
@@ -94,7 +94,22 @@ h3{
 
 
 /* PRODOTTI HOVER*/
-div.prodotto:hover{
+.seconda-img{
+    display: none;
+}
+
+.fotografia:hover .prima-img{
+    display: none;
+}
+
+.fotografia:hover .seconda-img{
+    display: inline-block;
+}
+/* /PRODOTTI HOVER*/
+
+
+/* PRIMA DELLA CORREZIONE, METODO "CONTENT" */
+/* div.prodotto:hover{
     cursor: pointer;
     display: hide;
 }
@@ -121,20 +136,4 @@ div.fotografia.cinque img:hover{
 
 div.fotografia.sei img:hover{
     content: url(img/6b.webp);
-}
-/* /PRODOTTI HOVER*/
-
-
-/*
-seconda-img{
-    display: none;
-}
-
-prima-img:hover{
-    display: none;
-}
-
-seconda-img:hover{
-    display: inline-block
-}
-*/
+} */
