@@ -11,9 +11,15 @@ main{
     margin: 0 auto;
 }
 
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .prodotto{
-    display: inline-block;
-    width: 220px;
+    float: left;
+    width: calc(100% / 3);
     padding: 0px 5px 30px;
 }
 /* /GENERAL */
